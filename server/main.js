@@ -1,5 +1,4 @@
 import { Meteor } from 'meteor/meteor';
-import { HTTP } from 'meteor/http';
 
 Meteor.startup(() => {
   ServiceConfiguration.configurations.upsert(
